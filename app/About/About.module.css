@@ -1,0 +1,13 @@
+.wrapper {
+  max-width: 80em;
+  margin: 0 auto;
+}
+.wrapper .flex {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.wrapper .flex h1 {
+  font-size: 6rem;
+  line-height: 0.9;
+}/*# sourceMappingURL=About.module.css.map */
