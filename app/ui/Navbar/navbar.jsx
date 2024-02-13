@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { SiSteamdeck } from "react-icons/si";
+import { MdArrowOutward } from "react-icons/md";
 import styles from "./navbar.module.sass"
 
 const Navbar = () => {
@@ -16,8 +17,8 @@ const Navbar = () => {
                     </ul>
                </nav>
                <div className={styles.buttons}>
-                    <button className={styles.button}>Join society</button>
-                    <button className={styles.button}>Hire talent</button>
+                    <button className={styles.button}>Join society <MdArrowOutward style={{ color: 'black', fontSize: '18px', fontWeight: 'bold', textAlign: 'center'}} /></button>
+                    <button className={styles.button}>Hire talent <MdArrowOutward style={{ color: 'white', fontSize: '18px', fontWeight: 'bold', textAlign: 'center'}} /></button>
                </div>
           </div>
      )

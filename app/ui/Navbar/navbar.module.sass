@@ -37,10 +37,20 @@
           display: inline-flex
           gap: 1rem
           .button
+               display: flex
+               justify-content: center
+               align-items: center
+               gap: .4rem
                background: black
                color: white
                padding: .4rem 1rem
                border-radius: 50px
+               cursor: pointer
+
+          .button:hover
+               transform: scale(1.1)
+               transition: .1s transform
+
 
           .button:nth-of-type(1)
                background: transparent

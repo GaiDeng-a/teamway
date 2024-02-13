@@ -35,10 +35,19 @@
   gap: 1rem;
 }
 .container .buttons .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
   background: black;
   color: white;
   padding: 0.4rem 1rem;
   border-radius: 50px;
+  cursor: pointer;
+}
+.container .buttons .button:hover {
+  transform: scale(1.1);
+  transition: 0.1s transform;
 }
 .container .buttons .button:nth-of-type(1) {
   background: transparent;
