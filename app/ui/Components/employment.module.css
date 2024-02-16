@@ -1,0 +1,27 @@
+.contain {
+  margin-block: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.contain .h1 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.flex {
+  border-top: 0.5px solid black;
+  max-width: 30rem;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.flex h3 {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
+.flex p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}/*# sourceMappingURL=employment.module.css.map */

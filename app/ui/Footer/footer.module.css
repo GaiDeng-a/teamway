@@ -1,0 +1,13 @@
+.footer {
+  background: beige;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+.footer .wrapper {
+  max-width: 80em;
+  margin: 0 auto;
+}
+
+.flex1 {
+  padding-top: 3rem;
+}/*# sourceMappingURL=footer.module.css.map */

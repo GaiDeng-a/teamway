@@ -3,30 +3,38 @@
   margin: 0 auto;
 }
 .wrapper .flex {
-  background: linear-gradient(45deg, #92b74c, #33ce35);
   height: 30rem;
-  padding: 4rem;
   border-radius: 1rem;
   display: flex;
-  flex-direction: column;
   gap: 2rem;
   justify-content: center;
   align-items: center;
   margin-block: 3rem;
 }
-.wrapper .flex span {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 600;
-  max-width: 40rem;
-}
 .wrapper .flex h1 {
-  font-size: 6rem;
+  font-size: 10rem;
+  text-align: center;
   line-height: 0.9;
 }
-.wrapper .flex:hover {
-  background: beige;
-  transition: 0.1s background;
+
+.steam {
+  border-block: 0.5px solid black;
+  padding-block: 1rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.steam span {
+  font-size: 1.5rem;
+  max-width: 40rem;
+  font-weight: 600;
+}
+.steam .icon {
+  border-left: 0.5px solid black;
+  margin-right: 5rem;
+  padding-left: 1rem;
 }
 
 .team {
