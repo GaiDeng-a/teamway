@@ -48,9 +48,4 @@
 .container .buttons .button:hover {
   transform: scale(1.1);
   transition: 0.1s transform;
-}
-.container .buttons .button:nth-of-type(1) {
-  background: transparent;
-  border: 2px solid black;
-  color: black;
 }/*# sourceMappingURL=navbar.module.css.map */

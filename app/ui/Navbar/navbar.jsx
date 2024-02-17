@@ -9,7 +9,11 @@ const Navbar = () => {
                <div className={styles.logo}> <SiSteamdeck style={{ color: 'black', fontSize: '25px', fontWeight: 'bold', textAlign: 'center'}} />Teamway</div>
                <nav className={styles.nav}>
                     <ul className={styles.navlist}>
-                         <li className={styles.list}><Link href={'/'}> Companies </Link></li>
+                         <li className={styles.list}><Link href={'/'}> Companies
+                              <div>
+                                   
+                              </div>
+                         </Link></li>
                          <li className={styles.list}><Link href={'/'}> Members </Link></li>
                          <li className={styles.list}><Link href={'/'}> Society </Link></li>
                          <li className={styles.list}><Link href={'/About'}> About </Link></li>
@@ -17,7 +21,7 @@ const Navbar = () => {
                     </ul>
                </nav>
                <div className={styles.buttons}>
-                    <button className={styles.button}>Join society <MdArrowOutward style={{ color: 'black', fontSize: '18px', fontWeight: 'bold', textAlign: 'center'}} /></button>
+                    {/* <button className={styles.button}>Join society <MdArrowOutward style={{ color: 'black', fontSize: '18px', fontWeight: 'bold', textAlign: 'center'}} /></button> */}
                     <button className={styles.button}>Hire talent <MdArrowOutward style={{ color: 'white', fontSize: '18px', fontWeight: 'bold', textAlign: 'center'}} /></button>
                </div>
           </div>

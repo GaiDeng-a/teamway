@@ -1,5 +1,6 @@
 "use client";
 
+
 import planet from "../../public/planet.jpg";
 import { SiSteamdeck } from "react-icons/si";
 import styles from "./About.module.sass";
