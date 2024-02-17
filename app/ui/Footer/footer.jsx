@@ -1,4 +1,5 @@
 // 'use client'
+import { SiSteamdeck } from "react-icons/si";
 import styles from "./footer.module.sass";
 
 const Footer = () => {
@@ -7,18 +8,19 @@ const Footer = () => {
 			<div className={styles.wrapper}>
 				<div className={styles.flex1}>
 					<div>
-						<span>Leading the next era of work.</span>
+						<span className={styles.span}>Leading the next era of work.</span>
 						<div>
-							<ul>
-								<li>Articles</li>
-								<li>Youtube</li>
+							<ul className={styles.socialist}>
+								<li style={{borderBottom: '.5px solid black'}}>Articles</li>
+								<li style={{borderBottom: '.5px solid black'}}>Youtube</li>
+								<li style={{borderBottom: '.5px solid black'}}>Whitepaper</li>
 								<li>Twitter</li>
 								<li>Linkedln</li>
 							</ul>
 						</div>
 					</div>
 
-					<div>
+					<div className={styles.importantlinks}>
 						<div>
 							<span>Companies</span>
 							<li>Why Teamway?</li>
@@ -43,8 +45,8 @@ const Footer = () => {
 						</div>
 					</div>
 
-					<div>
-						<span>Teamway</span>
+					<div className={styles.teamy}>
+						<span className={styles.way}><SiSteamdeck style={{ color: 'black', fontSize: '25px', fontWeight: 'bold', textAlign: 'center'}} /> Teamway</span>
 						<div>
 							<span>Code of Conduct</span>
 							<span>Privacy policy</span>

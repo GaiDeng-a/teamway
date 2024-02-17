@@ -1,5 +1,5 @@
 .footer {
-  background: beige;
+  background: #f2efe9;
   border-top-right-radius: 2rem;
   border-top-left-radius: 2rem;
 }
@@ -9,5 +9,61 @@
 }
 
 .flex1 {
-  padding-top: 3rem;
+  padding-block: 3rem;
+}
+.flex1 .span {
+  font-size: 1.8rem;
+  font-weight: 320;
+  margin-bottom: 3rem;
+}
+.flex1 .socialist {
+  margin-block: 2rem;
+  display: flex;
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex1 .socialist li {
+  font-size: 0.77rem;
+  padding-block: 0.7rem;
+  list-style: none;
+  flex-basis: 300px;
+}
+.flex1 .importantlinks {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 5rem;
+}
+.flex1 .importantlinks span {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.flex1 .importantlinks li {
+  color: #665d5c;
+  font-size: 0.81rem;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+.flex1 .teamy {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.flex1 .teamy .way {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.flex1 .teamy div {
+  border-left: 0.5px solid black;
+  padding: 0.5rem 1rem;
+  color: #665d5c;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 2rem;
 }/*# sourceMappingURL=footer.module.css.map */
